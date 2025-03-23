@@ -1,0 +1,33 @@
+# Visual Studio ve .NET ile ilgili gereksiz dosyalar
+bin/
+obj/
+.vscode/
+.vs/
+*.user
+*.suo
+*.cache
+*.csproj.user
+
+# Build çıktıları
+*.dll
+*.exe
+*.pdb
+*.app
+*.log
+
+# Paket Yönetimi
+node_modules/
+packages/
+.nuget/
+
+# Secrets ve Ayar Dosyaları
+secrets.json
+.env
+appsettings.json
+appsettings.Development.json
+
+# Entity Framework Migrations için (isteğe bağlı)
+Migrations/
+
+# PostgreSQL için
+pgdata/
